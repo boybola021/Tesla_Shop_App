@@ -1,0 +1,37 @@
+name: tap_bar
+description: A new Flutter project.
+publish_to:
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Gotham Pro
+      fonts:
+        - asset: assets/fonts/gotham_pro/gothampro_medium.ttf
+          weight: 500
+        - asset: assets/fonts/gotham_pro/gothampro.ttf
+          weight: 400
+
